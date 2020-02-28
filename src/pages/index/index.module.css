@@ -1,0 +1,23 @@
+.app{
+    background-color: #fff;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    justify-content: center;
+}
+
+.item {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 24px;
+    display: grid;
+    justify-content: center;
+    font-size: .75rem;
+    text-align: center;
+    grid-template-rows: auto;
+}
+.image{
+    width: 150px;
+    height: 150px;
+}

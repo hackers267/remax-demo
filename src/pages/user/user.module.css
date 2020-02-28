@@ -1,0 +1,30 @@
+.my_info {
+  display: grid;
+  grid-template-columns: 145px 1fr;
+  padding: 14px;
+  align-items: center;
+  background-color: #508cee;
+}
+.avatar {
+  width: 86px;
+  height: 86px;
+  padding: 22px;
+}
+.my_phone {
+  color: #ffffff;
+  font-size: .875rem;
+}
+.two_col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #fff;
+  height: 148px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.two_row {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
